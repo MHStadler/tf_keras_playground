@@ -1,4 +1,5 @@
 from tf_keras_playground import dataset
 from tf_keras_playground import layers
 from tf_keras_playground import models
+from tf_keras_playground import optimizers
 from tf_keras_playground import train
