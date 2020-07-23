@@ -1,6 +1,6 @@
 # tf_keras_playground
 
-A small repository to consilidate, and test my implementation of various deep learning utilities 
+A small repository to consilidate, and test my implementation of various deep learning utilities for tensorflow/keras
 
 ## Current Tools
  - Stochastic Depth, a technique to train very deep ResNets [1]. Early, minimal viable implementation available as keras wrapper (layers.StochDep) or keras layer (layers.ResDrop)
