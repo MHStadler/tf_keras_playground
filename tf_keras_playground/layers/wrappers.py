@@ -25,7 +25,7 @@ class StochDepth(tf.keras.layers.Wrapper):
         def test():
             return self.layer([inputs[0], inputs[1] * self.p_l])
     
-        return keras.backend.in_train_phase(train, test)
+        return tf.keras.backend.in_train_phase(train, test)
         
     def compute_output_shape(self, input_shape):
         return tf.TensorShape(self.layer.compute_output_shape(input_shape).as_list())
